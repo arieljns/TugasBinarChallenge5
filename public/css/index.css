@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.nav-bar .section-contact-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.nav-bar .section-contact-navbar a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar .section-login-navbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-bar .section-login-navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#home-container {
+  background-image: url("assets/main-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  width: 100vw;
+  height: 100vh;
+}
+#home-container .home-page {
+  position: relative;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home-container .home-page h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  color: white;
+}
+#home-container .home-page p {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 36px;
+}
+#home-container .home-page button {
+  background-color: #eeb45d;
+  border-radius: 15px;
+  font-size: 20px;
+  width: 50%;
+  height: 10%;
+  border-style: none;
+  width: 20%;
+}
+#home-container .home-page a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 200px;
+}
+
+#game-story {
+  display: flex;
+  background-image: url(assets/the-games-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+#game-story .unique-value {
+  color: white;
+}
+#game-story .unique-value h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+}
+#game-story .unique-value h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3em;
+}
+#game-story .carousel-container {
+  position: relative;
+  left: 50px;
+  width: 50%;
+  height: 50%;
+}
+
+#features {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(assets/features.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+#features .features-container {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  top: 20%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#features .features-container .features-of-the-game {
+  position: relative;
+  align-items: flex-start;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+#features .features-container .features-of-the-game h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+#features .features-container .features-of-the-game h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3em;
+}
+#features .features-container .memory {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  color: white;
+}
+#features .features-container .memory h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  color: #eeb45d;
+}
+
+#system-requirements {
+  background-image: url(assets/requirements.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+#system-requirements .content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 20%;
+  right: 20%;
+}
+#system-requirements .content-container h1 {
+  font-family: "Open Sans", sans-serif;
+}
+#system-requirements .content-container .first-content-container {
+  display: flex;
+  position: relative;
+  left: 50px;
+  width: 50%;
+}
+#system-requirements .content-container .first-content-container .operating-system {
+  border: 1px solid grey;
+  width: 50%;
+  padding: 20px;
+  color: #eeb45d;
+}
+#system-requirements .content-container .first-content-container .processor {
+  border: 1px solid grey;
+  width: 50%;
+  padding: 20px;
+}
+#system-requirements .content-container .first-content-container .processor h3 {
+  color: #eeb45d;
+}
+#system-requirements .content-container .second-content-container {
+  display: flex;
+  position: relative;
+  left: 50px;
+  width: 50%;
+}
+#system-requirements .content-container .second-content-container .memory {
+  border: 1px solid grey;
+  width: 50%;
+  padding: 20px;
+}
+#system-requirements .content-container .second-content-container .memory h3 {
+  color: #eeb45d;
+}
+#system-requirements .content-container .second-content-container .storage {
+  border: 1px solid grey;
+  width: 50%;
+  padding: 20px;
+}
+#system-requirements .content-container .second-content-container .storage h3 {
+  color: #eeb45d;
+}
+#system-requirements .content-container .third-content-container {
+  display: flex;
+  position: relative;
+  left: 50px;
+  width: 50%;
+}
+#system-requirements .content-container .third-content-container .graphics {
+  border: 1px solid grey;
+  width: 50%;
+  padding: 20px;
+}
+#system-requirements .content-container .third-content-container .graphics h3 {
+  color: #eeb45d;
+}
+
+#top-scores {
+  background-image: url(assets/top-score-bg.png);
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+#top-scores .headline h1 {
+  font-family: "Open Sans", sans-serif;
+}
+#top-scores .headline button {
+  background-color: #eeb45d;
+  border-radius: 15px;
+  font-size: 20px;
+  width: 50%;
+  height: 10%;
+  border-style: none;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+#top-scores .top-scorer {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+#top-scores .top-scorer .people-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #1a1a1b;
+  border-radius: 20px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  margin: 5%;
+}
+#top-scores .top-scorer .people-1 .upper-biodata {
+  display: flex;
+  justify-content: space-around;
+}
+#top-scores .top-scorer .people-1 .upper-biodata .photo {
+  background-color: #eeb45d;
+  border-radius: 50px;
+}
+#top-scores .top-scorer .people-1 .upper-biodata .photo img {
+  border-radius: 50px;
+}
+#top-scores .top-scorer .people-1 .upper-biodata .biodata {
+  position: relative;
+  right: 552 px;
+  font-family: "Open Sans", sans-serif;
+}
+#top-scores .top-scorer .people-1 .upper-biodata .biodata h3 {
+  color: #eeb45d;
+}
+#top-scores .top-scorer .people-1 .upper-biodata .biodata h4 {
+  color: #565757;
+}
+#top-scores .top-scorer .people-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #1a1a1b;
+  border-radius: 20px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  right: 40%;
+}
+#top-scores .top-scorer .people-2 .upper-biodata {
+  display: flex;
+  justify-content: space-around;
+}
+#top-scores .top-scorer .people-2 .upper-biodata .photo {
+  background-color: #eeb45d;
+  border-radius: 50px;
+}
+#top-scores .top-scorer .people-2 .upper-biodata .photo img {
+  border-radius: 50px;
+}
+#top-scores .top-scorer .people-2 .upper-biodata .biodata {
+  position: relative;
+  right: 552 px;
+  font-family: "Open Sans", sans-serif;
+}
+#top-scores .top-scorer .people-2 .upper-biodata .biodata h3 {
+  color: #eeb45d;
+}
+#top-scores .top-scorer .people-2 .upper-biodata .biodata h4 {
+  color: #565757;
+}
+
+#subscribe {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0d0a09;
+}
+#subscribe .subscribe-container {
+  display: flex;
+  color: white;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+#subscribe .subscribe-container .contact {
+  font-family: "Open Sans", sans-serif;
+}
+#subscribe .subscribe-container .email-form {
+  display: flex;
+  justify-content: space-between;
+}
+#subscribe .subscribe-container .email-form .email-address input {
+  background-color: #1a1a1b;
+  color: white;
+  border-radius: 5px;
+  height: 100%;
+  width: 130%;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+}
+#subscribe .subscribe-container .email-form button {
+  background-color: #eeb45d;
+  border-radius: 15px;
+  font-size: 20px;
+  width: 50%;
+  height: 10%;
+  border-style: none;
+  border-radius: 5px;
+}
+#subscribe .footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  top: 50px;
+}
+#subscribe .footer-container .footer-subscribe {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#subscribe .footer-container .footer-subscribe a {
+  text-decoration: none;
+  color: white;
+}
+#subscribe .footer-container .hr-line {
+  height: 2px;
+}
+#subscribe .footer-container .hr-line hr {
+  color: white;
+  width: 100%;
+  height: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0d0a09;
+  padding: 20px;
+  width: 100vw;
+  border-top: 1px solid white;
+}
+.footer .copyright {
+  color: #565757;
+}
+.footer .policy {
+  color: white;
+}/*# sourceMappingURL=index.css.map */
